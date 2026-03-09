@@ -32,6 +32,63 @@ In educational publishing, content (like textbooks, quizzes, and articles) needs
 4. **XPath Queries:** Using `xpath_queries.txt`, we show how specific parts of the content can be dynamically searched.
 5. **XSLT Transformations:** Finally, pure data is turned into user-friendly quizzes and articles using the stylesheets in `xslt/`.
 
+**Project Folder — What Each File Does**
+
+xml-content-conversion-system/
+│
+├── data/                        ← STEP 1: The raw, messy input
+│   ├── raw_questions.txt        ← 12 quiz questions as plain text
+│   └── sample_article.txt       ← An article as plain text
+│
+├── xml/                         ← STEP 2: The same content, now organized in XML
+│   ├── question_bank.xml        ← Those 12 questions in proper XML tags
+│   └── article.xml              ← That article in proper XML tags
+│
+├── schemas/                     ← STEP 3: Rules to check if XML is correct
+│   ├── question_schema.xsd      ← "Every question MUST have text + 3 options + answer"
+│   └── article_schema.xsd       ← "Every article MUST have title + author + sections"
+│
+├── xpath/                       ← STEP 4: Search queries for XML
+│   └── xpath_queries.txt        ← Examples like "find all Biology questions"
+│
+├── xslt/                        ← STEP 5: Stylesheets to convert XML → HTML
+│   ├── questions_to_html.xsl    ← Converts questions XML → quiz webpage
+│   ├── article_to_html.xsl      ← Converts article XML → article webpage
+│   └── xml_to_summary.xsl       ← Converts questions XML → stats dashboard
+│
+├── output/                      ← STEP 6: The final HTML result (what users see)
+│   ├── questions_output.html    ← Beautiful quiz page
+│   ├── article_output.html      ← Beautiful article page
+│   └── summary_output.html      ← Stats: how many questions per subject etc.
+│
+├── build_html.py                ← THE SCRIPT that does step 5 → 6 automatically
+└── README.md                    ← Project documentation
+
+How to Run the Project — 
+
+1. Open Terminal in the project folder
+In VS Code: press Ctrl + ` (backtick) to open a terminal. Make sure it says:
+PS d:\....\xml-content-conversion-system>
+
+2. Run the script
+python build_html.py
+
+3. What you should see
+Transforming xml/question_bank.xml with xslt/questions_to_html.xsl -> output/questions_output.html
+Done.
+Transforming xml/article.xml with xslt/article_to_html.xsl -> output/article_output.html
+Done.
+Transforming xml/question_bank.xml with xslt/xml_to_summary.xsl -> output/summary_output.html
+Done.
+All outputs generated successfully!
+
+4. View the results
+Right-click output/questions_output.html → Open with browser
+Right-click output/article_output.html → Open with browser
+Right-click output/summary_output.html → Open with browser
+
+You will see styled HTML pages generated entirely from XML data!
+
 ### 6. Explanation of XML Schema Validation
 XSD files provide a strict blueprint for our XML. For the question bank, the schema explicitly demands that every `<question>` has an `id`, `subject`, and `difficulty` attribute. It also specifies that each question must have a `<text>`, at least three `<option>` elements, and an `<answer>`. By standardizing requirements securely, tools and systems can trust the data perfectly without manual checking.
 
@@ -47,3 +104,5 @@ The `questions_to_html.xsl` uses `<xsl:for-each>` loops to iterate securely over
 ### 9. Real-World Applications
 - **Test Generation Software:** Educational systems randomly generate balanced tests by using XPath to select 10 Easy and 5 Medium questions across completely different subjects, exporting them beautifully with XSLT to PDF for printing or an e-learning platform perfectly formatted.
 - **Content Syndication:** Publishing engines can simultaneously release a course chapter to a web portal (HTML) and mobile app (JSON) directly from the golden XML record.
+
+This project demonstrates the complete XML content pipeline — from unstructured data to structured XML, validated by schemas, queryable with XPath, and transformed into HTML using XSLT. This is the same approach used by real educational publishers and e-learning platforms
