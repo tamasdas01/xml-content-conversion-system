@@ -1,0 +1,107 @@
+Question: What is photosynthesis?
+Option A: Process used by plants to make food
+Option B: Digestion process
+Option C: Water absorption
+Option D: Breathing process
+Answer: A
+Difficulty: Easy
+Subject: Biology
+
+Question: What is the speed of light?
+Option A: 300,000 km/s
+Option B: 150,000 km/s
+Option C: 400,000 km/s
+Option D: 299,792 km/s
+Answer: D
+Difficulty: Medium
+Subject: Physics
+
+Question: What is the chemical symbol for water?
+Option A: O2
+Option B: H2O
+Option C: CO2
+Option D: NaCl
+Answer: B
+Difficulty: Easy
+Subject: Chemistry
+
+Question: What is the value of Pi to two decimal places?
+Option A: 3.14
+Option B: 3.15
+Option C: 3.12
+Option D: 3.16
+Answer: A
+Difficulty: Easy
+Subject: Mathematics
+
+Question: Which planet is known as the Red Planet?
+Option A: Venus
+Option B: Mars
+Option C: Jupiter
+Option D: Saturn
+Answer: B
+Difficulty: Easy
+Subject: Physics
+
+Question: What is the powerhouse of the cell?
+Option A: Nucleus
+Option B: Mitochondria
+Option C: Ribosome
+Option D: Endoplasmic reticulum
+Answer: B
+Difficulty: Medium
+Subject: Biology
+
+Question: What is the atomic number of Carbon?
+Option A: 6
+Option B: 12
+Option C: 8
+Option D: 14
+Answer: A
+Difficulty: Easy
+Subject: Chemistry
+
+Question: Solve for x: 2x = 10
+Option A: 2
+Option B: 4
+Option C: 5
+Option D: 10
+Answer: C
+Difficulty: Easy
+Subject: Mathematics
+
+Question: What is the most abundant gas in the Earth's atmosphere?
+Option A: Oxygen
+Option B: Carbon Dioxide
+Option C: Nitrogen
+Option D: Hydrogen
+Answer: C
+Difficulty: Medium
+Subject: Chemistry
+
+Question: Who proposed the theory of relativity?
+Option A: Isaac Newton
+Option B: Albert Einstein
+Option C: Galileo Galilei
+Option D: Nikola Tesla
+Answer: B
+Difficulty: Easy
+Subject: Physics
+
+Question: What is the basic unit of life?
+Option A: Tissue
+Option B: Organ
+Option C: Organism
+Option D: Cell
+Answer: D
+Difficulty: Easy
+Subject: Biology
+
+Question: What is the derivative of x^2?
+Option A: 2
+Option B: x
+Option C: 2x
+Option D: x^3
+Answer: C
+Difficulty: Medium
+Subject: Mathematics

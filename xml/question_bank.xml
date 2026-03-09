@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Question Bank XML
+  This file stores a collection of multiple-choice questions.
+  It is structured to hold the question text, multiple options, the correct answer,
+  and metadata like subject and difficulty.
+-->
+<questionBank xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../schemas/question_schema.xsd">
+  <question id="Q1" subject="Biology" difficulty="Easy">
+    <text>What is photosynthesis?</text>
+    <options>
+      <option id="A">Process used by plants to make food</option>
+      <option id="B">Digestion process</option>
+      <option id="C">Water absorption</option>
+      <option id="D">Breathing process</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question id="Q2" subject="Physics" difficulty="Medium">
+    <text>What is the speed of light?</text>
+    <options>
+      <option id="A">300,000 km/s</option>
+      <option id="B">150,000 km/s</option>
+      <option id="C">400,000 km/s</option>
+      <option id="D">299,792 km/s</option>
+    </options>
+    <answer>D</answer>
+  </question>
+  <question id="Q3" subject="Chemistry" difficulty="Easy">
+    <text>What is the chemical symbol for water?</text>
+    <options>
+      <option id="A">O2</option>
+      <option id="B">H2O</option>
+      <option id="C">CO2</option>
+      <option id="D">NaCl</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question id="Q4" subject="Mathematics" difficulty="Easy">
+    <text>What is the value of Pi to two decimal places?</text>
+    <options>
+      <option id="A">3.14</option>
+      <option id="B">3.15</option>
+      <option id="C">3.12</option>
+      <option id="D">3.16</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question id="Q5" subject="Physics" difficulty="Easy">
+    <text>Which planet is known as the Red Planet?</text>
+    <options>
+      <option id="A">Venus</option>
+      <option id="B">Mars</option>
+      <option id="C">Jupiter</option>
+      <option id="D">Saturn</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question id="Q6" subject="Biology" difficulty="Medium">
+    <text>What is the powerhouse of the cell?</text>
+    <options>
+      <option id="A">Nucleus</option>
+      <option id="B">Mitochondria</option>
+      <option id="C">Ribosome</option>
+      <option id="D">Endoplasmic reticulum</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question id="Q7" subject="Chemistry" difficulty="Easy">
+    <text>What is the atomic number of Carbon?</text>
+    <options>
+      <option id="A">6</option>
+      <option id="B">12</option>
+      <option id="C">8</option>
+      <option id="D">14</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question id="Q8" subject="Mathematics" difficulty="Easy">
+    <text>Solve for x: 2x = 10</text>
+    <options>
+      <option id="A">2</option>
+      <option id="B">4</option>
+      <option id="C">5</option>
+      <option id="D">10</option>
+    </options>
+    <answer>C</answer>
+  </question>
+  <question id="Q9" subject="Chemistry" difficulty="Medium">
+    <text>What is the most abundant gas in the Earth's atmosphere?</text>
+    <options>
+      <option id="A">Oxygen</option>
+      <option id="B">Carbon Dioxide</option>
+      <option id="C">Nitrogen</option>
+      <option id="D">Hydrogen</option>
+    </options>
+    <answer>C</answer>
+  </question>
+  <question id="Q10" subject="Physics" difficulty="Easy">
+    <text>Who proposed the theory of relativity?</text>
+    <options>
+      <option id="A">Isaac Newton</option>
+      <option id="B">Albert Einstein</option>
+      <option id="C">Galileo Galilei</option>
+      <option id="D">Nikola Tesla</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question id="Q11" subject="Biology" difficulty="Easy">
+    <text>What is the basic unit of life?</text>
+    <options>
+      <option id="A">Tissue</option>
+      <option id="B">Organ</option>
+      <option id="C">Organism</option>
+      <option id="D">Cell</option>
+    </options>
+    <answer>D</answer>
+  </question>
+  <question id="Q12" subject="Mathematics" difficulty="Medium">
+    <text>What is the derivative of x^2?</text>
+    <options>
+      <option id="A">2</option>
+      <option id="B">x</option>
+      <option id="C">2x</option>
+      <option id="D">x^3</option>
+    </options>
+    <answer>C</answer>
+  </question>
+</questionBank>

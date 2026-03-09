@@ -1,0 +1,29 @@
+# Educational Content XML Processing System
+# XPath Queries Showcase
+
+# 1. Extract all question texts
+/questionBank/question/text
+
+# 2. Extract all answers
+/questionBank/question/answer
+
+# 3. Get all questions with difficulty "Easy"
+/questionBank/question[@difficulty='Easy']
+
+# 4. Get all questions for the subject "Biology"
+/questionBank/question[@subject='Biology']
+
+# 5. Extract all section titles from the article
+/article/sections/section/title
+
+# 6. Extract the abstract of the article
+/article/abstract
+
+# 7. Extract the second option of the first question
+/questionBank/question[1]/options/option[2]
+
+# 8. Count the total number of questions (returns a number)
+count(/questionBank/question)
+
+# 9. Get questions that have an answer 'C'
+/questionBank/question[answer='C']

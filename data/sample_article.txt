@@ -1,0 +1,19 @@
+Title: Understanding the Water Cycle
+Author: Dr. Emily Rivers
+Abstract: A brief overview of the continuous movement of water on, above, and below the surface of the Earth.
+
+Introduction
+The water cycle, also known as the hydrologic cycle, describes the continuous movement of water within the Earth and atmosphere. It is a complex system that includes many different processes. Liquid water evaporates into water vapor, condenses to form clouds, and precipitates back to earth in the form of rain and snow.
+
+Evaporation and Transpiration
+Evaporation is the process by which water changes from a liquid to a gas or vapor. The primary source of energy for evaporation is the sun. Transpiration is the release of water vapor from plants and soil into the air.
+
+Condensation and Precipitation
+Condensation is the process by which water vapor in the air is changed into liquid water. It is responsible for the formation of clouds. Precipitation is water released from clouds in the form of rain, freezing rain, sleet, snow, or hail.
+
+Conclusion
+The water cycle is vital for the continued existence of life on Earth. It ensures the availability of water for all living organisms and helps regulate the climate.
+
+References
+- Book: "Earth's Environment"
+- Research Paper: "Global Hydrological Cycles"
