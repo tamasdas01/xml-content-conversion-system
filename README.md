@@ -32,8 +32,9 @@ In educational publishing, content (like textbooks, quizzes, and articles) needs
 4. **XPath Queries:** Using `xpath_queries.txt`, we show how specific parts of the content can be dynamically searched.
 5. **XSLT Transformations:** Finally, pure data is turned into user-friendly quizzes and articles using the stylesheets in `xslt/`.
 
-**Project Folder — What Each File Does**
+### Project Folder — What Each File Does
 
+```
 xml-content-conversion-system/
 │
 ├── data/                        ← STEP 1: The raw, messy input
@@ -63,17 +64,27 @@ xml-content-conversion-system/
 │
 ├── build_html.py                ← THE SCRIPT that does step 5 → 6 automatically
 └── README.md                    ← Project documentation
+```
 
-How to Run the Project — 
+### How to Run the Project
 
-1. Open Terminal in the project folder
-In VS Code: press Ctrl + ` (backtick) to open a terminal. Make sure it says:
+**1. Open Terminal in the project folder**
+
+In VS Code: press `Ctrl + `` (backtick) to open a terminal. Make sure it says:
+
+```
 PS d:\....\xml-content-conversion-system>
+```
 
-2. Run the script
+**2. Run the script**
+
+```bash
 python build_html.py
+```
 
-3. What you should see
+**3. What you should see**
+
+```
 Transforming xml/question_bank.xml with xslt/questions_to_html.xsl -> output/questions_output.html
 Done.
 Transforming xml/article.xml with xslt/article_to_html.xsl -> output/article_output.html
@@ -81,11 +92,13 @@ Done.
 Transforming xml/question_bank.xml with xslt/xml_to_summary.xsl -> output/summary_output.html
 Done.
 All outputs generated successfully!
+```
 
-4. View the results
-Right-click output/questions_output.html → Open with browser
-Right-click output/article_output.html → Open with browser
-Right-click output/summary_output.html → Open with browser
+**4. View the results**
+
+- Right-click `output/questions_output.html` → Open with browser
+- Right-click `output/article_output.html` → Open with browser
+- Right-click `output/summary_output.html` → Open with browser
 
 You will see styled HTML pages generated entirely from XML data!
 
